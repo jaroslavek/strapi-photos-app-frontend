@@ -81,6 +81,7 @@ const { data } = await useAsyncData("posts", async ({ _route: { query } }) => {
     <div class="wrapper">
       <header>
         <h1 class="text-4xl font-bold">Hey, {{ user?.username || "Stranga!" }}</h1>
+        <h4>Jho edit v 1.0</h4>
       </header>
       <div class="content-wrapper">
         <aside class="create-post-aside">
